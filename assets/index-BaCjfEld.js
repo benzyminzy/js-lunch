@@ -235,7 +235,7 @@ const createRestaurantListSection = (data) => {
   return [restaurantFilter, restaurantList];
 };
 const getRestaurantList = async () => {
-  return await fetch(`${"/js-lunch/"}__mock__/db.json`).then(
+  return await fetch(`${"/js-lunch/"}mock/db.json`).then(
     (res) => res.json()
   );
 };
