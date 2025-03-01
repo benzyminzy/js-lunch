@@ -122,7 +122,7 @@ const createRestaurantCategoryImage = (category) => {
   const imageContainer = document.createElement("div");
   imageContainer.classList.add("restaurant__category");
   const categoryImage = createIcon({
-    src: `../public/assets/${IMAGE_PATHS[category]}`,
+    src: `${"/js-lunch/"}assets/${IMAGE_PATHS[category]}`,
     alt: category
   });
   imageContainer.append(categoryImage);
