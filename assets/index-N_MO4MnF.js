@@ -235,7 +235,7 @@ const createRestaurantListSection = (data) => {
   return [restaurantFilter, restaurantList];
 };
 const getRestaurantList = async () => {
-  return await fetch("../public/mock/db.json").then((res) => res.json());
+  return await fetch("src/__mock__/db.json").then((res) => res.json());
 };
 addEventListener("DOMContentLoaded", async () => {
   const app = document.querySelector("#app");
